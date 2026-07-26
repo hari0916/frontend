@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmos & Nature</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050816;
+    color:#fff;
+}
+
+/* Navigation */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(15px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#6dd5ff;
+}
+
+nav ul{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#6dd5ff;
+}
+
+/* Hero */
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(5,8,22,.75)),
+    url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1800&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:72px;
+    margin-bottom:20px;
+    text-shadow:0 0 20px #00d4ff;
+}
+
+.hero p{
+    max-width:750px;
+    margin:auto;
+    color:#ddd;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.hero a{
+    display:inline-block;
+    margin-top:40px;
+    padding:16px 45px;
+    border-radius:50px;
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(90deg,#00d2ff,#3a7bd5);
+    transition:.3s;
+}
+
+.hero a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 40px rgba(0,210,255,.4);
+}
+
+section{
+    padding:100px 10%;
+}
+
+.heading{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.sub{
+    text-align:center;
+    color:#aaa;
+    margin-bottom:60px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#10182d;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 50px rgba(0,0,0,.45);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h3{
+    color:#6dd5ff;
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#ccc;
+    line-height:1.8;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:60px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.5);
+}
+
+.about h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#ccc;
+    line-height:2;
+}
+
+.quote{
+    background:linear-gradient(135deg,#08101d,#162c52);
+    text-align:center;
+    padding:120px 10%;
+}
+
+.quote h2{
+    font-size:42px;
+    line-height:1.6;
+}
+
+.quote span{
+    color:#6dd5ff;
+}
+
+footer{
+    text-align:center;
+    padding:35px;
+    background:#03050d;
+    color:#888;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:48px;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">COSMOS</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#nature">Nature</a></li>
+<li><a href="#space">Space</a></li>
+<li><a href="#gallery">Gallery</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<h1>Cosmos & Nature</h1>
+
+<p>
+Discover the breathtaking connection between Earth's untouched landscapes and the endless mysteries of the universe. Every mountain, ocean, forest, and distant galaxy reminds us how extraordinary our existence truly is.
+</p>
+
+<a href="#nature">Explore Now</a>
+
+</div>
+
+</section>
+
+<section id="nature">
+
+<h2 class="heading">Nature's Beauty</h2>
+
+<p class="sub">
+The Earth is filled with landscapes that inspire peace and adventure.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Mountains</h3>
+<p>Majestic mountain ranges stand as timeless monuments of strength, resilience, and natural beauty.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Forests</h3>
+<p>Lush forests breathe life into our planet while providing homes for millions of living species.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Oceans</h3>
+<p>Covering more than seventy percent of Earth, oceans hold countless mysteries waiting to be explored.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="space">
+
+<div class="about">
+
+<div>
+
+<h2>Infinite Space</h2>
+
+<p>
+Beyond our atmosphere lies a universe filled with billions of galaxies, glowing nebulae, powerful black holes, and stars that have existed for billions of years. Looking at the night sky is like looking back through time itself.
+</p>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1400&q=80">
+
+</div>
+
+</section>
+
+<section class="quote">
+
+<h2>
+
+"We are made of <span>star dust</span>, yet we call the beauty of <span>Earth</span> our home."
+
+</h2>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="heading">Explore More</h2>
+
+<p class="sub">
+Every destination tells a different story.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Galaxy</h3>
+<p>Billions of stars combine to form magnificent spiral galaxies across the universe.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Waterfalls</h3>
+<p>Nature's endless flow of water creates spectacular landscapes across every continent.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80">
+<div class="card-content">
+<h3>Night Sky</h3>
+<p>The Milky Way stretches across the darkness, reminding us of our place in the cosmos.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Cosmos & Nature | Designed with HTML & CSS
+
+</footer>
+
+</body>
+</html>
