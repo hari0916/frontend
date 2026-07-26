@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>HRUDRA</title><link rel='stylesheet' href='assets/css/style.css'></head><body><nav><a href='index.php'>Home</a><a href='nature.php'>Nature</a><a href='space.php'>Space</a><a href='about.php'>About</a><a href='contact.php'>Contact</a></nav>

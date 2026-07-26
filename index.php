@@ -1,0 +1,1 @@
+<?php include 'includes/header.php';?><section class='hero'><div class='overlay'><h1>HRUDRA</h1><p>Exploring the beauty of Nature and the mystery of Space.</p></div></section><?php include 'includes/footer.php';?>

@@ -1,0 +1,1 @@
+<footer>© 2026 HRUDRA • Nature & Space</footer></body></html>

@@ -1,0 +1,1 @@
+<?php include 'includes/header.php';?><div class='container'><h1>Contact</h1><h3>HRUDRA</h3><p>Address: Hyderabad, Telangana, India</p><p>Email: contact@hrudra.com</p><p>Phone: +91 98765 43210</p></div><?php include 'includes/footer.php';?>

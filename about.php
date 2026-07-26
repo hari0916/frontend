@@ -1,0 +1,1 @@
+<?php include 'includes/header.php';?><div class='container'><h1>About HRUDRA</h1><p>HRUDRA is a demonstration PHP website built without a database. It showcases beautiful content about nature and space using PHP includes for reusable layouts.</p></div><?php include 'includes/footer.php';?>
